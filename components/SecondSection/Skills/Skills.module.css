@@ -1,0 +1,14 @@
+.container{
+    @apply grid grid-cols-1 gap-12 px-16 py-20 bg-blue-300 text-white
+}
+.progressBar{
+    @apply  w-full bg-gray-200 rounded-full h-1.5 dark:bg-gray-700
+}
+.bar{
+    @apply bg-myColor-100 h-1.5 rounded-full
+}
+@screen md{
+    .container{
+        @apply grid-cols-2
+    }
+}

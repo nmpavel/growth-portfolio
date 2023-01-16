@@ -1,0 +1,32 @@
+.container{
+    @apply w-full text-white px-4 py-4 sticky 
+}
+.navBar{
+    @apply  flex justify-center items-center 
+}
+.innerDiv{
+    @apply  flex justify-between items-center w-full h-auto
+}
+.nammedNav{
+    @apply flex items-center space-x-4
+}
+.drawer{
+    @apply text-xl text-myColor-100
+}
+.topBar{
+    @apply flex flex-col justify-between h-96 w-full fixed  top-0 right-0 bg-blue-500 transition duration-500
+}
+.commonDiv{
+    @apply flex flex-row justify-between px-4 py-4 w-auto h-auto
+}
+.cross{
+    @apply  text-3xl text-myColor-100 
+}
+@screen lg{
+    .container{
+        @apply px-32
+    }
+    .drawer{
+        @apply hidden
+    }
+}

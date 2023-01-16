@@ -1,0 +1,30 @@
+.container{
+    @apply text-white flex flex-col items-center p-8  bg-blue-300 
+}
+.tContainer{
+    @apply space-y-6 m-6
+}
+.aboutMe{
+    @apply text-myColor-100
+}
+.question{
+    @apply text-2xl font-semibold font-serif
+}
+.btn{
+    @apply  px-8 py-2 border-2 border-myColor-100 text-myColor-100 transition-all duration-500 hover:bg-myColor-100 hover:text-black 
+}
+@screen lg{
+    .container{
+        @apply flex-row
+    }
+}
+@screen sm{
+    .container{
+        @apply p-16
+    }
+}
+@screen md{
+    .question{
+        @apply text-5xl
+    }
+}

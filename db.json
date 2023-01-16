@@ -1,0 +1,310 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Christian Lopez",
+      "designation": "Product Designer"
+    }
+  ],
+
+  "about": [
+    {
+      "question": "Why hire me for your next project?",
+      "reason": "Meet my startup design agency Shape Rex Currently I am working at CodeNext as Product Designer. Before that I’ve worked at SpurBee, Dhaka as a UX, UI Designer.",
+      "aboutMe": "I love to work in User Experience & User Interface designing. Because I love to solve the design problem and find easy and better solutions to solve it. I always try my best to make good user interface with the best user experience. I have been working as a Visual designer from",
+      "photo": "/About.png"
+    }
+  ],
+
+  "exhibitions": [
+    {
+      "id": 1,
+      "caption": "Picture number 1",
+      "path": "/Images/exhibition/Exhibition1.jpeg"
+    },
+    {
+      "id": 2,
+      "caption": "Picture number 2",
+      "path": "/Images/exhibition/Exhibition2.jpeg"
+    },
+    {
+      "id": 3,
+      "caption": "Picture number 3",
+      "path": "/Images/exhibition/Exhibition3.jpeg"
+    },
+    {
+      "id": 4,
+      "caption": "Picture number 4",
+      "path": "/Images/exhibition/Exhibition4.jpeg"
+    },
+    {
+      "id": 5,
+      "caption": "Picture number 5",
+      "path": "/Images/exhibition/Exhibition5.jpeg"
+    },
+    {
+      "id": 6,
+      "caption": "Picture number 6",
+      "path": "/Images/exhibition/Exhibition6.jpeg"
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "logo": "/Images/awards/AwardsLogo1.png",
+      "name": "Awards Name Here",
+      "description": "Strategy develop customer in organisational knowledge and market perspectives that inform and provoke."
+    },
+    {
+      "id": 2,
+      "logo": "/Images/awards/AwardsLogo2.png",
+      "name": "Awards Name Here",
+      "description": "Strategy develop customer in organisational knowledge and market perspectives that inform and provoke."
+    },
+    {
+      "id": 3,
+      "logo": "/Images/awards/AwardsLogo3.png",
+      "name": "Awards Name Here",
+      "description": "Strategy develop customer in organisational knowledge and market perspectives that inform and provoke."
+    },
+    {
+      "id": 4,
+      "logo": "/Images/awards/AwardsLogo4.png",
+      "name": "Awards Name Here",
+      "description": "Strategy develop customer in organisational knowledge and market perspectives that inform and provoke."
+    }
+  ],
+  "interviews": [
+    {
+      "id": 1,
+      "logo": "/Images/interviews/interviews1.jpeg",
+      "name": "Business Strategy",
+      "description": "There are many variations of passages lorem Ipsum available, but the majority have suffered alteration."
+    },
+    {
+      "id": 2,
+      "logo": "/Images/interviews/interviews2.jpeg",
+      "name": "Business Strategy",
+      "description": "There are many variations of passages lorem Ipsum available, but the majority have suffered alteration."
+    },
+    {
+      "id": 3,
+      "logo": "/Images/interviews/interviews3.jpeg",
+      "name": "Business Strategy",
+      "description": "There are many variations of passages lorem Ipsum available, but the majority have suffered alteration."
+    },
+    {
+      "id": 4,
+      "logo": "/Images/interviews/interviews4.jpeg",
+      "name": "Business Strategy",
+      "description": "There are many variations of passages lorem Ipsum available, but the majority have suffered alteration."
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "logo": "/Images/servicesPictures/service1.png",
+      "name": "Business Strategy",
+      "description": "Strategy develop customer in organisational knowledge and market perspectives that inform and provoke."
+    },
+    {
+      "id": 2,
+      "logo": "/Images/servicesPictures/service2.png",
+      "name": "Brand Strategy",
+      "description": "Strategy develop customer in organisational knowledge and market perspectives that inform and provoke."
+    },
+    {
+      "id": 3,
+      "logo": "/Images/servicesPictures/service3.png",
+      "name": "Visual Design",
+      "description": "Strategy develop customer in organisational knowledge and market perspectives that inform and provoke."
+    },
+    {
+      "id": 4,
+      "logo": "/Images/servicesPictures/service4.png",
+      "name": "Product Design",
+      "description": "Strategy develop customer in organisational knowledge and market perspectives that inform and provoke."
+    },
+    {
+      "id": 5,
+      "logo": "/Images/servicesPictures/service5.png",
+      "name": "Interactive Design",
+      "description": "Strategy develop customer in organisational knowledge and market perspectives that inform and provoke."
+    },
+    {
+      "id": 6,
+      "logo": "/Images/servicesPictures/service6.png",
+      "name": "Motion Graphics",
+      "description": "Strategy develop customer in organisational knowledge and market perspectives that inform and provoke."
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "name": "COMMUNICATION",
+      "progress": 45
+    },
+    {
+      "id": 2,
+      "name": "ORGANIZATION",
+      "progress": 65
+    },
+    {
+      "id": 3,
+      "name": "ANALYTICAL ABILITIES",
+      "progress": 45
+    },
+    {
+      "id": 4,
+      "name": "PROJECT MANAGEMENT",
+      "progress": 75
+    },
+    {
+      "id": 5,
+      "name": "PRESERVANCE",
+      "progress": 85
+    },
+    {
+      "id": 6,
+      "name": "PROBLEM SOLVING",
+      "progress": 30
+    },
+    {
+      "id": 7,
+      "name": "CREATIVITY",
+      "progress": 55
+    },
+    {
+      "id": 8,
+      "name": "RESOURCEFULLNESS",
+      "progress": 85
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "photo": "/Images/projects/project1.png",
+      "stack": "GAME, INTERIOR, WEB",
+      "name": "Project Manageement Admin Panel",
+      "description": "Discover Business Strategy A thoughtful discovery process"
+    },
+    {
+      "id": 2,
+      "photo": "/Images/projects/project2.jpeg",
+      "stack": "APP, GAME, WEB",
+      "name": "Project Manageement Admin Panel",
+      "description": "Discover Business Strategy A thoughtful discovery process"
+    },
+    {
+      "id": 3,
+      "photo": "/Images/projects/project3.jpeg",
+      "stack": "INTERIOR, UI/UX, WEB",
+      "name": "Project Manageement Admin Panel",
+      "description": "Discover Business Strategy A thoughtful discovery process"
+    },
+    {
+      "id": 4,
+      "photo": "/Images/projects/project4.png",
+      "stack": "GAME, INTERIOR, UI/UX",
+      "name": "Project Manageement Admin Panel",
+      "description": "Discover Business Strategy A thoughtful discovery process"
+    },
+    {
+      "id": 5,
+      "photo": "/Images/projects/project5.png",
+      "stack": "GAME, INTERIOR, WEB",
+      "name": "Project Manageement Admin Panel",
+      "description": "Discover Business Strategy A thoughtful discovery process"
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "Martha Sandoval",
+      "designation": "Product Designer at CodeNext",
+      "dp": "/Images/clientsPictures/client1.png",
+      "pos": 1,
+      "active": true,
+      "comment": "We are motivated by the satisfaction of our clients. Put your trust in us and share in our growth Asset Management is made up of a team of expert, commited and experienced people with a passion for financial markets. Our goal is to achieve goals."
+    },
+    {
+      "id": 2,
+      "name": "Martha Sandoval",
+      "designation": "Product Designer at CodeNext",
+      "dp": "/Images/clientsPictures/client2.png",
+      "pos": 2,
+      "active": true,
+      "comment": "We are motivated by the satisfaction of our clients. Put your trust in us and share in our growth Asset Management is made up of a team of expert, commited and experienced people with a passion for financial markets. Our goal is to achieve goals."
+    },
+    {
+      "id": 3,
+      "name": "Martha Sandoval",
+      "designation": "Product Designer at CodeNext",
+      "dp": "/Images/clientsPictures/client3.png",
+      "pos": 3,
+      "active": false,
+      "comment": "We are motivated by the satisfaction of our clients. Put your trust in us and share in our growth Asset Management is made up of a team of expert, commited and experienced people with a passion for financial markets. Our goal is to achieve goals."
+    },
+    {
+      "id": 4,
+      "name": "Martha Sandoval",
+      "designation": "Product Designer at CodeNext",
+      "dp": "/Images/clientsPictures/client4.png",
+      "pos": 4,
+      "active": false,
+      "comment": "We are motivated by the satisfaction of our clients. Put your trust in us and share in our growth Asset Management is made up of a team of expert, commited and experienced people with a passion for financial markets. Our goal is to achieve goals."
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "logo": "/Images/companies/companies1.png"
+    },
+    {
+      "id": 2,
+      "logo": "/Images/companies/companies2.png"
+    },
+    {
+      "id": 3,
+      "logo": "/Images/companies/companies3.png"
+    },
+    {
+      "id": 4,
+      "logo": "/Images/companies/companies4.png"
+    },
+    {
+      "id": 5,
+      "logo": "/Images/companies/companies5.png"
+    },
+    {
+      "id": 6,
+      "logo": "/Images/companies/companies6.png"
+    }
+  ],
+  "companies1": [
+    {
+      "id": 1,
+      "logo": "/Images/companies/companies3.png"
+    },
+    {
+      "id": 2,
+      "logo": "/Images/companies/companies1.png"
+    },
+    {
+      "id": 3,
+      "logo": "/Images/companies/companies5.png"
+    },
+    {
+      "id": 4,
+      "logo": "/Images/companies/companies6.png"
+    },
+    {
+      "id": 5,
+      "logo": "/Images/companies/companies4.png"
+    },
+    {
+      "id": 6,
+      "logo": "/Images/companies/companies2.png"
+    }
+  ]
+}

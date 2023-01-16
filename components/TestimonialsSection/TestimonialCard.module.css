@@ -1,0 +1,18 @@
+.container{
+    @apply  text-white border border-myColor-100 rounded-xl w-auto m-4 bg-blue-300  h-auto p-5 space-y-10 
+}
+.innerContainer{
+    @apply flex flex-row justify-between 
+}
+.introductory{
+    @apply flex space-x-3 items-center 
+}
+.dp{
+    @apply w-16 h-16 border rounded-full 
+}
+.name{
+    @apply  text-2xl font-semibold 
+}
+.desig{
+    @apply  text-xs text-myColor-100 
+}

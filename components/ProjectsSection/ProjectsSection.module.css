@@ -1,0 +1,55 @@
+.button__bar {
+  margin-left: 50px;
+}
+
+.button__bar li {
+  list-style: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 3px;
+  padding: 0;
+}
+
+.button__bar li button {
+  border: none;
+  background: #4C4342;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 3px;
+  width: 21px;
+  border-radius: 7.5px;
+}
+
+.button__bar :global(li.slick-active) button {
+  background-color: #FFC576;
+}
+
+.button__bar li button:hover,
+.button__bar li button:focus {
+  background: #FFC576;
+  outline: 0;
+}
+.container{
+  @apply text-white py-48 h-fit bg-blue-500 
+}
+.innerDiv{
+  @apply text-white space-y-4 mx-4
+}
+.myClient{
+  @apply text-myColor-100 text-xs font-semibold 
+}
+.projects{
+  @apply  text-4xl font-bold 
+}
+@screen lg{
+  .container{
+    @apply pl-16
+  }
+}
+@screen xl{
+  .container{
+    @apply pl-48
+  }
+}
+

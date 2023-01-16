@@ -1,0 +1,30 @@
+.container{
+    @apply text-white h-5/6  mx-4 my-8 bg-blue-300 border-b-2 rounded-t-lg border-myColor-100 overflow-hidden
+}
+.imgContainer{
+    @apply border border-transparent rounded-lg overflow-hidden 
+}
+.tContainer{
+    @apply flex flex-col px-8 py-16 space-y-6 
+}
+.stack{
+    @apply text-myColor-100 text-xs 
+}
+.name{
+    @apply  text-2xl font-semibold 
+}
+.btn{
+    @apply whitespace-nowrap text-xs w-36 px-6 py-2 border border-myColor-100 text-myColor-100 transition-all duration-500 hover:bg-myColor-100 hover:text-black 
+}
+.hoveredImg{
+    @apply  scale-110 transition duration-300 ease-in
+}
+.afterHoveredImg{
+    @apply scale-100 transition duration-300 ease-out 
+}
+.hoveredBorder{
+    @apply border-t-2 border-myColor-100 transition-all duration-300 ease-in 
+}
+.afterHoveredBorder{
+    @apply transition-all duration-300 ease-out
+}

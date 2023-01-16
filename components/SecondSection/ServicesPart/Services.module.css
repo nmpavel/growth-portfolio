@@ -1,0 +1,12 @@
+.container{
+    @apply grid gap-12 grid-cols-1 px-16 py-20 bg-blue-300 text-white
+}
+
+.innerContainer{
+    @apply  flex flex-col space-y-4  
+}
+@screen lg{
+    .container{
+        @apply grid-cols-3
+    }
+}

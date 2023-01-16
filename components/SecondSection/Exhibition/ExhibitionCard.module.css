@@ -1,0 +1,12 @@
+.container{
+    @apply  cursor-pointer border border-transparent rounded-xl overflow-hidden relative 
+}
+.img{
+    @apply hover:scale-125  transition duration-500 ease-in-out
+}
+.captionContainer{
+    @apply  flex justify-center items-center 
+}
+.caption{
+    @apply absolute bottom-4 text-white
+}

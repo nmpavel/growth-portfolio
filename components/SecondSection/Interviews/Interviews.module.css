@@ -1,0 +1,23 @@
+.container{
+    @apply grid gap-8 grid-cols-1 px-16 py-20 bg-blue-300 text-white
+}
+.innerContainer{
+    @apply flex flex-col justify-between items-center 
+}
+.img{
+    @apply border border-transparent rounded-lg
+}
+.tContainer{
+    @apply space-y-4 flex flex-col justify-center items-start m-6 
+}
+
+@screen lg{
+    .container{
+        @apply grid-cols-2
+    }
+}
+@screen md{
+    .innerContainer{
+        @apply flex-row
+    }
+}

@@ -1,0 +1,30 @@
+.container{
+    @apply px-4 bg-blue-500 border-t border-gray-700
+}
+.navBar{
+    @apply  grid grid-cols-2 
+}
+.btn{
+    @apply border py-3  transition-all duration-500 
+}
+.if{
+    @apply bg-myColor-100 text-black border-myColor-100
+}
+.ifNot{
+    @apply  bg-blue-400 text-white border-gray-700 hover:border-myColor-100 hover:bg-myColor-100 hover:text-black
+}
+@screen md{
+    .navBar{
+        @apply  grid-cols-6  
+    }
+}
+@screen lg{
+    .container{
+        @apply px-16
+    }
+}
+@screen 2xl{
+    .container{
+        @apply px-48
+    }
+}

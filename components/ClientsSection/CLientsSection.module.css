@@ -1,0 +1,31 @@
+.container{
+    @apply text-white px-4  py-32 flex flex-col bg-blue-500 
+}
+.heading{
+    @apply  text-myColor-100 text-sm whitespace-nowrap 
+}
+.clients{
+    @apply  text-4xl font-semibold font-serif 
+}
+.btnDiv{
+    @apply flex flex-row items-start   
+}
+
+@screen md{
+  .container{
+      @apply flex-row
+  }
+  .btnDiv{
+    @apply flex-col
+  }
+}
+@screen lg{
+     .container{
+    @apply px-16
+  }
+}
+@screen xl{
+    .container{
+       @apply px-48
+    }
+}

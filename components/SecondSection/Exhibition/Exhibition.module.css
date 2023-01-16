@@ -1,0 +1,14 @@
+.container{
+    @apply grid gap-8 grid-cols-1 bg-blue-300 p-8  
+}
+
+@screen md{
+    .container{
+        @apply grid-cols-2 p-16
+    }
+}
+@screen lg{
+    .container{
+        @apply grid-cols-3
+    }
+}

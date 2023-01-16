@@ -1,0 +1,8 @@
+.container{
+    @apply grid gap-8 grid-cols-1 px-16 py-20 bg-blue-300 text-white
+}
+@screen lg{
+    .container{
+        @apply grid-cols-2
+    }
+}

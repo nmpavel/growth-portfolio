@@ -1,0 +1,12 @@
+.btn{
+    @apply border border-myColor-100 rounded-lg bg-blue-300 overflow-hidden text-white transition-all duration-500 hover:bg-myColor-100 hover:text-black 
+}
+.container{
+    @apply flex justify-between items-center p-8 
+}
+.textContainer{
+    @apply flex flex-col items-start space-y-3 
+}
+.title{
+    @apply text-2xl font-semibold
+}

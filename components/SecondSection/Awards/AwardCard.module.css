@@ -1,0 +1,15 @@
+.container{
+    @apply flex flex-col justify-between items-center
+}
+.tcontainer{
+    @apply  m-6 space-y-6
+}
+.name{
+    @apply text-xl font-semibold
+}
+
+@screen md{
+    .container{
+        @apply flex-row
+    }
+}

@@ -1,0 +1,25 @@
+.container{
+    @apply  w-full text-white px-4 py-32 bg-blue-400
+}
+.cards{
+    @apply  w-full grid gap-8 grid-cols-1 py-16 
+}
+.para{
+    @apply  text-myColor-100 text-sm whitespace-nowrap 
+}
+.let{
+    @apply  text-4xl font-semibold 
+}
+@screen lg{
+    .container{
+        @apply px-16
+    }
+    .cards{
+        @apply grid-cols-3
+    }
+}
+@screen xl{
+    .container{
+        @apply px-48
+    }
+}
